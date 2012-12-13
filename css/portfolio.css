@@ -1,0 +1,86 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	color: #3d3d3d;
+}
+body {
+	background-color: #faf7fe;
+}
+table {
+	border-collapse: collapse;
+}
+table td {
+	padding: 10px;
+	border:1px solid #e2e2e2;
+	background-color: #ffffff;
+}
+table#table {
+	margin: 50px auto;
+}
+table#tableCopy {
+	position: fixed;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+table td.title {
+	text-align: center;
+	font-size: 16px;
+	background-color: #f7f7f7;
+	border-bottom: 3px solid #e2e2e2;
+}
+table td.technology {
+	width: 52px;
+	min-width: 52px;
+	
+}
+
+table td.cornerLeft {
+	width: 180px;
+	min-width: 180px;
+}
+
+table td.cornerRight {
+	width: 300px;
+	min-width: 300px;
+	padding: 10px 15px;
+}
+
+table td.project {
+	text-align: right;
+}
+table td.description {
+	width: 300px;
+	text-align: justify;
+	padding: 10px 15px;
+	font-size: 14px;
+}
+table td.description p {
+	text-indent: 35px;
+}
+table td.used {
+	background-image: url('../img/ok.png');
+	background-position: center center;
+	background-repeat: no-repeat;	
+	background-color: #f4fce7;
+}
+.alignRight {
+	text-align: right;
+}
+.alignJustify {
+	text-align: justify;
+}
+a {
+	padding-right: 15px;
+}
+a:link, a:visited, a:hover {
+	color: #3d3d3d;
+	font-size: 16px;
+}
+a:hover {
+	text-decoration: none;
+	background-image: url('../img/targetBlank.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
